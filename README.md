@@ -4,7 +4,7 @@
 Criação de uma simples página de login
 
 ## 🔗 Layout
-![imagem](image.png)
+![imagem](./img/image.png)
 
 ## 💻 Tecnologias utilizadas
 

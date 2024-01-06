@@ -68,20 +68,6 @@ body {
     font-size: 20px;
 }
 
-.container .close {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 45px;
-    height: 45px;
-    font-size: 2em;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-
-
-}
-
 .container .esqueceu-a-senha {
     display: flex;
     justify-content: space-between;
@@ -132,4 +118,14 @@ body {
 
 .registre-link p a::hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 30px 15px; 
+    }
+
+    .input-box i {
+        right: 5px; 
+    }
 }
